@@ -1,0 +1,18 @@
+{
+  "name": "daytona-interactive-pty",
+  "version": "1.0.0",
+  "description": "Interactive PTY session using Daytona SDK",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx tsx index.ts",
+    "status": "npx tsx index.ts --status"
+  },
+  "dependencies": {
+    "@daytonaio/sdk": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
